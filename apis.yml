@@ -1,0 +1,28 @@
+aid: syllogi-eu
+name: Syllogi
+description: 'Syllogi is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/syllogi-eu/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-22'
+modified: '2026-11-22'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.syllogi.eu
+- type: Documentation
+  url: https://www.syllogi.eu/developers
+x-submission-notes: EU law API (EUR-Lex, EASA) with apis.json at /.well-known/apis.json; note www host
+  soft-200s unknown paths
+x-submission-probe: root/docs 200, invented path 404 (2026-11-22)
